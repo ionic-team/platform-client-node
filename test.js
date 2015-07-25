@@ -29,6 +29,13 @@ var IonicPush = IonicPlatform.Push;
         }
       }
     }
+  }, function(err, body) {
+    if(err) {
+      console.error('IonicPush: Error');
+      console.error(err);
+    } else {
+      console.log('SENT\n', body);
+    }
   });
 
 })();
