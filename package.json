@@ -1,0 +1,29 @@
+{
+  "name": "ionic-platform-client-node",
+  "version": "1.0.0",
+  "description": "A Node.js library for easily using the Ionic Platform API",
+  "main": "ionic-platform.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/driftyco/platform-client-node.git"
+  },
+  "keywords": [
+    "ionic",
+    "html5",
+    "push",
+    "push",
+    "notifications"
+  ],
+  "author": "Max Lynch <max@ionic.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/driftyco/platform-client-node/issues"
+  },
+  "homepage": "https://github.com/driftyco/platform-client-node#readme",
+  "dependencies": {
+    "request": "^2.60.0"
+  }
+}
